@@ -25,7 +25,7 @@ html {
 
 #main {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 #information {
@@ -94,6 +94,9 @@ a:hover {
                     1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 
+#lists {
+    display: none;
+}
 
 #notes {
     display: none;
@@ -109,12 +112,22 @@ a:hover {
 button{
     margin-top: 5%;
     border: none;
-    border-right: 3px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
     background-color: inherit;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.tablinks {
+    text-align: right;
 }
 
 button:hover {
-    border-right: 3px solid green;
+    border-right: 2px solid green;
+    border-bottom: 2px solid green;
+    transform: translate(1em, 0);
+    transition-duration: 50ms;
 }
 
 .noteblock {
