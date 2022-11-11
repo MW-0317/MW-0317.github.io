@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0fb56564.css",
-    "main.js": "/static/js/main.08bcd11d.js",
+    "main.js": "/static/js/main.c1beba22.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/LatexEqs.pdf": "/static/media/LatexEqs.49f271536d21ef515e74.pdf",
     "static/media/cube.gif": "/static/media/cube.7843de640ee59d58f6af.gif",
@@ -9,11 +9,11 @@
     "static/media/latexkeychords.png": "/static/media/latexkeychords.fe4efd57a467c391a932.png",
     "index.html": "/index.html",
     "main.0fb56564.css.map": "/static/css/main.0fb56564.css.map",
-    "main.08bcd11d.js.map": "/static/js/main.08bcd11d.js.map",
+    "main.c1beba22.js.map": "/static/js/main.c1beba22.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb56564.css",
-    "static/js/main.08bcd11d.js"
+    "static/js/main.c1beba22.js"
   ]
 }
