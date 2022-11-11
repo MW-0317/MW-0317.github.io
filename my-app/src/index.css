@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Bookman;
+  src: url(fonts/BookmanStd-Light.otf)
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  margin-top: 5%;
+  font-family: Bookman, Georgia, 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bodyFlex {
+  display: flex;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: medium;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.vr {
+  margin: 1%;
+}

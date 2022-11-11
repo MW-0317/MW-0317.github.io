@@ -1,0 +1,79 @@
+/* .App {
+  text-align: center;
+} */
+
+
+
+
+.logo {
+  height: 300px;
+  width: 300px;
+  pointer-events: none;
+}
+
+.fullLogo {
+  position: relative;
+  
+}
+
+.aboveText {
+  font-size: x-large;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  z-index: 2; 
+  text-shadow:    3px 0 #fff, -3px 0 #fff, 0 3px #fff, 0 -3px #fff,
+                  2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+                  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.Sidebar {
+  margin-top: 1%;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: left;
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: #333;
+}
+
+.Information {
+  margin: 0;
+  min-width: 300px;
+  max-width: 300px;
+  display: flex;
+}
+
+.desc {
+  text-align: right;
+}
+
+.vr {
+  margin: 3%;
+}
+
+.contentSelection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  float: right;
+}
+
+button {
+  margin-top: 5%;
+  border: none;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  background-color: inherit;
+  cursor: pointer;
+  margin-top: 1em;
+  text-align: right;
+}
+
+button:hover {
+  border-right: 2px solid green;
+  border-bottom: 2px solid green;
+  transform: translate(1em, 0);
+  transition-duration: 50ms;
+}
