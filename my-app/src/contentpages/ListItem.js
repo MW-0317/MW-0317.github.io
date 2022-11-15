@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ListItem.css';
 
-function ListItem( {href, title, desc} ) {
+function ListItem( {href, title, desc, isFile} ) {
     return ( 
         <div className='resource'>
-            <a href={href}> {title} </a>
+            {isFile ? <a href={href}> {title} </a> : <Link to={href}> {title} </Link>}
             <p className='rDetail'>
                 {desc}
             </p>

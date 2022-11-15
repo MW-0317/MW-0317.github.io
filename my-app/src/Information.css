@@ -2,9 +2,6 @@
   text-align: center;
 } */
 
-
-
-
 .logo {
   height: 300px;
   width: 300px;
@@ -13,12 +10,11 @@
 
 .fullLogo {
   position: relative;
-  
 }
 
 .aboveText {
   font-size: x-large;
-  float: right;
+  /* float: left; */
   position: absolute;
   right: 0;
   top: 35%;
@@ -29,51 +25,64 @@
 }
 
 .Sidebar {
-  margin-top: 1%;
-  /* display: flex; */
-  flex-direction: column;
+  margin-top: 1vh;
+  /* margin-left: 1vw; */
   align-items: left;
-  /* justify-content: center; */
-  /* font-size: calc(10px + 2vmin); */
   color: #333;
+  margin-left: 0em;
+  /* border-right: 10px; */
 }
 
 .Information {
-  margin: 0;
-  min-width: 300px;
+  /* margin-left: 1em; */
+  min-width: 0px;
   max-width: 300px;
   display: flex;
+  margin-right: 20px;
+  padding-right: 20px;
+  /* border-right: solid 1px; */
+  /* flex-direction: row; */
 }
 
 .desc {
-  text-align: right;
+  display: block;
+  text-align: left;
+}
+
+.name {
+  display: flex;
+  justify-content: left;
+}
+
+.name h1 {
+  margin-bottom: 0;
 }
 
 .vr {
-  margin: 3%;
+  margin: 0;
 }
 
 .contentSelection {
   display: flex;
   flex-direction: column;
-  margin-top: 5%;
-  float: right;
+  margin-top: 0.5em;
+  float: left;
 }
 
 button {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   border: none;
   border-bottom: 2px solid black;
   border-right: 2px solid black;
   background-color: inherit;
   cursor: pointer;
-  margin-top: 1em;
-  text-align: right;
+  /* margin-top: 1em; */
+  text-align: left;
 }
 
 button:hover {
-  border-right: 2px solid green;
-  border-bottom: 2px solid green;
+  border-right: 2px solid limegreen; /* green */
+  border-bottom: 2px solid limegreen;
   transform: translate(1em, 0);
   transition-duration: 50ms;
 }

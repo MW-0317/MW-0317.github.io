@@ -1,0 +1,11 @@
+.project {
+    width: 6.5in;
+    margin: auto;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    display: block;
+}
+
+h1 {
+    margin-top: 0;
+}

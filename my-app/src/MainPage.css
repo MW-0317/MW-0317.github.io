@@ -1,8 +1,13 @@
 .bodyFlex {
     display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
   
 .vr {
-    margin: 1%;
+    /* margin: 0; */
+    margin-left: 1em;
+    margin-right: 1em;
 }
   

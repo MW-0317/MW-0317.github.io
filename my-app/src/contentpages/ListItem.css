@@ -6,6 +6,8 @@
 
 .resource {
     margin-bottom: 5%;
+    /* width: 6.5in; */
+    max-width: 6.5in;
 }
 
 h2 {
