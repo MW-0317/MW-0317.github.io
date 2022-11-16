@@ -9,6 +9,7 @@ import Example from './contentpages/projects/Example';
 
 import './MainPage.css';
 import AboutMe from './contentpages/AboutMe';
+import Notes from './contentpages/Notes';
 
 class MainPage extends Component {
     // constructor(props) {
@@ -22,8 +23,10 @@ class MainPage extends Component {
             page = <Resources />
         } else if (s === "projects") {
             page = <Projects />
-        } else {
+        } else if (s === "aboutme") {
             page = <AboutMe />
+        } else {
+            page = <Notes />
         }
         this.setState({currentPage: page});
     }

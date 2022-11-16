@@ -37,6 +37,11 @@ function Information( {onC} ) {
             </button>  
           </Link>
           <Link to="/" className='contentSelection'>
+            <button onClick={() => onC('notes')}>
+              Notes
+            </button>  
+          </Link>
+          <Link to="/" className='contentSelection'>
             <button onClick={() => onC('aboutme')}>
               About Me
             </button>  
