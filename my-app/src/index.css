@@ -13,7 +13,28 @@ body {
   margin-left: 5vh;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
 p {
   font-family: Georgia, serif;
   font-size: medium;
+}
+
+.br {
+  display: block;
+  margin-bottom: 5px;
+}
+
+img {
+  width: 6.5in;
 }
