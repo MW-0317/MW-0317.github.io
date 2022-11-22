@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Mine;
+    src: url(../fonts/BookmanStd-Medium.otf)
+}
+
+@font-face {
+    font-family: MineLight;
+    src: url(../fonts/BookmanStd-Light.otf)
+}
+
+@font-face {
+    font-family: MineBold;
+    src: url(../fonts/BookmanStd-Bold.otf)
+}
+
+html {
+    font-family: MineLight, Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    /* font-family: 'DM Serif Display', serif; */
+    /* font-family: 'Lora', serif; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Georgia, serif;
+    
+    /* font-family: 'Open Sans'; */
+    /* font-weight: bold; */
+    font-size: small;
+    }

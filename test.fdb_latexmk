@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1666225202 "c:/Users/marki/Documents/SchoolWebsite/test.tex" "test.pdf" "test" 1666225202
+  "c:/Users/marki/Documents/SchoolWebsite/test.tex" 1666225198 38 eb8bdbed487a30fd5f2cac75ba54a35a ""
+  "c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1643340995 29921 f0f4f870357ebfb8fe58ed9ed4ee9b92 ""
+  "c:/texlive/2021/texmf-dist/web2c/texmf.cnf" 1643340950 40042 fe981136cbb5f3715ab1b0e46e3d3892 ""
+  "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1643344630 2796720 107e4f7ce48574a82b6d603839fe7944 ""
+  "c:/texlive/2021/texmf.cnf" 1643344448 713 e69b156964470283e0530f5060668171 ""
+  "test.aux" 1666225202 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "test.tex" 1666225198 38 eb8bdbed487a30fd5f2cac75ba54a35a ""
+  (generated)
+  "test.aux"
+  "test.log"
+  "test.pdf"
