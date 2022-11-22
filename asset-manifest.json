@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.47e710bc.css",
-    "main.js": "/static/js/main.f8d3aae4.js",
+    "main.js": "/static/js/main.35ea9903.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/LatexEqs.pdf": "/static/media/LatexEqs.49f271536d21ef515e74.pdf",
     "static/media/cube.gif": "/static/media/cube.7843de640ee59d58f6af.gif",
@@ -13,11 +13,11 @@
     "static/media/gitcontrolmergeconflicts.png": "/static/media/gitcontrolmergeconflicts.ece65e71af47f4a8060a.png",
     "index.html": "/index.html",
     "main.47e710bc.css.map": "/static/css/main.47e710bc.css.map",
-    "main.f8d3aae4.js.map": "/static/js/main.f8d3aae4.js.map",
+    "main.35ea9903.js.map": "/static/js/main.35ea9903.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47e710bc.css",
-    "static/js/main.f8d3aae4.js"
+    "static/js/main.35ea9903.js"
   ]
 }
