@@ -30,6 +30,12 @@ p {
   font-size: medium;
 }
 
+.fig-text {
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+}
+
 .br {
   display: block;
   margin-bottom: 5px;
