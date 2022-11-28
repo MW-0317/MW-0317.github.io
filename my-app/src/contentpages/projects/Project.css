@@ -1,5 +1,10 @@
 .project {
     width: 6.5in;
+    background-color: #fff;
+    padding: 1in;
+    /* padding-left: 1in;
+    padding-right: 1in; */
+    border: 1px solid #666;
     margin: auto;
     margin-top: 1in;
     margin-bottom: 1in;

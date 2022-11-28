@@ -44,3 +44,9 @@ p {
 img {
   width: 6.5in;
 }
+
+::selection {
+  background-color: #ffff3d;
+  -webkit-text-stroke-width: 1px;
+  color: #333;
+}
