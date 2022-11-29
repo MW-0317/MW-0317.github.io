@@ -28,6 +28,7 @@ h3 {
 p {
   font-family: Georgia, serif;
   font-size: medium;
+  line-height: 1.6;
 }
 
 .fig-text {
@@ -43,6 +44,19 @@ p {
 
 img {
   width: 6.5in;
+}
+
+table {
+  border: 2px dashed black;
+  width: 100%;
+  /* text-align: left; */
+  padding: none;
+}
+
+td, th {
+  vertical-align: top;
+  border: 2px dashed black;
+  padding: 10px;
 }
 
 ::selection {
