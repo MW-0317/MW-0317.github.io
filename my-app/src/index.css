@@ -10,7 +10,7 @@ body {
   font-family: Bookman, Georgia, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-left: 5vh;
+  /* margin-left: 5vh; */
 }
 
 h1 {
