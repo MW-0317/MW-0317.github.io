@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1dac9ba6.css",
-    "main.js": "/static/js/main.f56bf69c.js",
+    "main.css": "/static/css/main.358e5f2a.css",
+    "main.js": "/static/js/main.f5b0eea6.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/MinecraftInstructionsFinal.pdf": "/static/media/MinecraftInstructionsFinal.c2ae8948f3bd3dd66318.pdf",
     "static/media/appt2.png": "/static/media/appt2.1ed89fbe148439fa1387.png",
@@ -17,12 +17,12 @@
     "static/media/latexkeychords.png": "/static/media/latexkeychords.fe4efd57a467c391a932.png",
     "static/media/gitcontrolmergeconflicts.png": "/static/media/gitcontrolmergeconflicts.ece65e71af47f4a8060a.png",
     "index.html": "/index.html",
-    "main.1dac9ba6.css.map": "/static/css/main.1dac9ba6.css.map",
-    "main.f56bf69c.js.map": "/static/js/main.f56bf69c.js.map",
+    "main.358e5f2a.css.map": "/static/css/main.358e5f2a.css.map",
+    "main.f5b0eea6.js.map": "/static/js/main.f5b0eea6.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dac9ba6.css",
-    "static/js/main.f56bf69c.js"
+    "static/css/main.358e5f2a.css",
+    "static/js/main.f5b0eea6.js"
   ]
 }
