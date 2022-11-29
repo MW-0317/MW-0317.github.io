@@ -127,7 +127,7 @@ function Instructions() {
                         <th>Audience</th>
                     </tr>
                     <tr>
-                        <td><b>Age Range</b></td>
+                        <td><p><b>Age Range</b></p></td>
                         <td>
                             <P>
                                 <b>Late preteens/early teens/early adults</b>. Since the audience ranges so widely, it might be good to keep wording limited besides troubleshooting/materials/warnings. All using imagery to compliment the words. Each sentence would use simple and appropriate vocabulary to fit the younger audience, which would still be readable to older audiences. The early vocabulary could however be annoying to the older audiences and should still be non-repeating and concise.
@@ -138,15 +138,54 @@ function Instructions() {
                         </td>
                     </tr>
                     <tr>
-                        <td><b>Game Niche</b></td>
-                        <td><P><b>Basic Redstone<sup><a href="#sup1">1</a></sup>.</b></P></td>
+                        <td><p><b>Game Niche</b></p></td>
+                        <td><P><b>Basic Redstone<sup>1</sup>.</b></P></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Education</b></p></td>
+                        <td><P>
+                            <b>Nothing/Some Basic Redstone</b>. Since I’m offering both options, it would be best to use a few, different angle, images at the beginning for those who just need a refresher, and a full instructions with red arrows to show placing of blocks. With that, using words and images to represent if the object in the instructions has moved.
+                        </P></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Environment</b></p></td>
+                        <td>
+                            <P>
+                                <b>Pages and Webpages</b>. I plan to use my environment as both physical lego-like books and webpages once we return with our portfolio<sup>2</sup>.
+                            </P>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Sectioning</b></p></td>
+                        <td>
+                            <P>
+                                <b>Sectioned Builds</b>. I plan to section my builds on block usage. This would follow: building the frame of the contraption, placing the important redstone blocks, and lastly placing the wiring, the redstone itself, last. This makes it easiest to follow, as this is how a real player would section and place these blocks, with that this pattern makes it easier to follow and remember since it follows an instinctual way of categorizing contraption creation.
+                            </P>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Block Usage</b></p></td>
+                        <td>
+                            <P>
+                                <b>Colorful Blocks</b>. I plan<sup>3</sup> to use blocks like wool and concrete in game because of the color variety and color saturations they provide. Sectioning different “wires” based on wool would make the connections easy to follow.
+                            </P>
+                        </td>
                     </tr>
                 </table>
+                <h2>
+                    Creation
+                </h2>
+                <P>
+                    After heavy development I finally created what is shown below. There's not much else between the idealization and creation as I did not heavily document the process.
+                </P>
                 <iframe src={instructions} title="Instructions" width="100%" height="500px"></iframe>
                 <div className='fig-text'><ListItem isFile href={instructions} title="Instructions Link" desc={<div className='fig-text'>
                     *Not up to date and unrevised.
                 </div>} /></div>
-                <p id="sup1">[1]</p>
+                <hr />
+                <p id="sup1">[1] Basic in terms of basic machines, should be titled "Basic Redstone Machines."</p>
+                <p id="sup2">[2] I am no longer be doing this.</p>
+                <p id="sup3">[3] I instead opted to use blocks like stone and dirt to follow a more natural look so that players could easily adapt it into their world.</p>
             </div>
         </Project>
     );

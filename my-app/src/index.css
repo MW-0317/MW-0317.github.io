@@ -55,7 +55,7 @@ table {
 
 td, th {
   vertical-align: top;
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
   padding: 10px;
 }
 

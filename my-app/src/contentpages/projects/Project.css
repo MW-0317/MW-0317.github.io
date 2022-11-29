@@ -1,5 +1,6 @@
 .project {
     width: 6.5in;
+    min-width: 6.5in;
     background-color: #fff;
     padding: 1in;
     /* padding-left: 1in;
