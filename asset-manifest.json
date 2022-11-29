@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b530bae.css",
-    "main.js": "/static/js/main.d97bf915.js",
+    "main.css": "/static/css/main.34b27061.css",
+    "main.js": "/static/js/main.81f1b9ce.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/MinecraftInstructionsFinal.pdf": "/static/media/MinecraftInstructionsFinal.c2ae8948f3bd3dd66318.pdf",
     "static/media/LatexEqs.pdf": "/static/media/LatexEqs.49f271536d21ef515e74.pdf",
     "static/media/cube.gif": "/static/media/cube.7843de640ee59d58f6af.gif",
     "static/media/gitcontrolmerges.png": "/static/media/gitcontrolmerges.23cdc6d3ef0e0d271c2f.png",
+    "static/media/ResumeAndCover.pdf": "/static/media/ResumeAndCover.d5aae185e56ca9d426c0.pdf",
     "static/media/gitcontrolbranches.png": "/static/media/gitcontrolbranches.3926944c570ee981a155.png",
     "static/media/gitcontrolmain.png": "/static/media/gitcontrolmain.5e14d56fb6b3bb6630ec.png",
     "static/media/BookmanStd-Light.otf": "/static/media/BookmanStd-Light.29fee038780453f00577.otf",
     "static/media/latexkeychords.png": "/static/media/latexkeychords.fe4efd57a467c391a932.png",
     "static/media/gitcontrolmergeconflicts.png": "/static/media/gitcontrolmergeconflicts.ece65e71af47f4a8060a.png",
     "index.html": "/index.html",
-    "main.2b530bae.css.map": "/static/css/main.2b530bae.css.map",
-    "main.d97bf915.js.map": "/static/js/main.d97bf915.js.map",
+    "main.34b27061.css.map": "/static/css/main.34b27061.css.map",
+    "main.81f1b9ce.js.map": "/static/js/main.81f1b9ce.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b530bae.css",
-    "static/js/main.d97bf915.js"
+    "static/css/main.34b27061.css",
+    "static/js/main.81f1b9ce.js"
   ]
 }
