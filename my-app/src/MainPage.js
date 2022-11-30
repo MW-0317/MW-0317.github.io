@@ -15,6 +15,7 @@ import './MainPage.css';
 import AboutMe from './contentpages/AboutMe';
 import Notes from './contentpages/Notes';
 import JobMaterials from './contentpages/projects/enc3241/JobMaterials';
+import ResearchProposal from './contentpages/projects/enc3241/ResearchProposal';
 
 class MainPage extends Component {
     // constructor(props) {
@@ -49,8 +50,9 @@ class MainPage extends Component {
                         <Route path='/project/u1v1'                     element={<Untitled1v1 />}/>
                         <Route path='/project/u1v1/understanding-git'   element={<UnderstandingGit />} />
                         <Route path='/project/u1v1/installing-github'   element={<InstallingGitHub />}/>
-                        <Route path='/project/enc3241/instructions'     element={<Instructions />}/>
-                        <Route path='/project/enc3241/jobmat'           element={<JobMaterials />}/>
+                        <Route path='/project/enc3241/instructions'     element={<Instructions />} />
+                        <Route path='/project/enc3241/jobmat'           element={<JobMaterials />} />
+                        <Route path='/project/enc3241/research'         element={<ResearchProposal />} />
                     </Routes>
                 </Router>
             </div>

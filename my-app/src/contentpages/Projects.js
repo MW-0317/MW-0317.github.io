@@ -19,6 +19,7 @@ function Projects() {
                 </h2>
                 <ListItem href="/project/enc3241/instructions"  title="Minecraft Instructions"  desc="Instructions for building a basic Minecraft Redstone Build" />
                 <ListItem href="/project/enc3241/jobmat"        title="Job Materials"           desc="Materials for Applying for a Job" />
+                <ListItem href="/project/enc3241/research"      title="Research Proposal"       desc="Research Proposal for COVID-19 in the classroom and it's effect on stress in close proximity to one another." />
             </Content>
         </div>
      );

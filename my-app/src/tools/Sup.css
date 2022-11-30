@@ -1,0 +1,17 @@
+.sup {
+    font: inherit;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    /* font-size: 80%; */
+}
+
+
+.sup:hover {
+    border: none;
+    padding: none;
+    margin: none;
+    border-right: none;
+    border-bottom: none;
+    transform: none;
+  }

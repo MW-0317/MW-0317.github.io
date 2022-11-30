@@ -9,6 +9,7 @@ import Project from '../Project';
 import ListItem from '../../ListItem';
 import P from '../../../tools/P';
 import TwoColumn from '../../../tools/TwoColumn';
+import Sup from '../../../tools/Sup';
 
 function Instructions() {
     return ( 
@@ -64,19 +65,19 @@ function Instructions() {
                         <b>Pros:</b>
                         <ul>
                             <li>
-                                3D, represents indoor rooms by cutting the room to make it easily visible to the camera.
+                                <p>3D, represents indoor rooms by cutting the room to make it easily visible to the camera.</p>
                             </li>
                             <li>
-                                Shows giant yellow arrows to represent movement
+                                <p>Shows giant yellow arrows to represent movement</p>
                             </li>
                             <li>
-                                Shows a cartoon character to help represent movement, which I’d like to use, however instead with Minecraft characters.
+                                <p>Shows a cartoon character to help represent movement, which I’d like to use, however instead with Minecraft characters.</p>
                             </li>
                         </ul>
                         <b>Cons:</b>
                         <ul>
                             <li>
-                                Unless you play the game, you do not know what the blue tunnel does and would be better understood with multiple images to represent movement instead of yellow arrows. That being, for me, both the young audiences and their parents will need to understand the instructions and I need to be able to accompany both.
+                                <p>Unless you play the game, you do not know what the blue tunnel does and would be better understood with multiple images to represent movement instead of yellow arrows. That being, for me, both the young audiences and their parents will need to understand the instructions and I need to be able to accompany both.</p>
                             </li>
                         </ul>
                     </>
@@ -94,28 +95,28 @@ function Instructions() {
                         <b>Pros:</b>
                         <ul>
                             <li>
-                                3D, which is what I will need to do as well with Minecraft blocks.
+                                <p>3D, which is what I will need to do as well with Minecraft blocks.</p>
                             </li>
                             <li>
-                                Easy to follow
+                                <p>Easy to follow</p>
                             </li>
                             <li>
-                                Represents all blocks using text and images
+                                <p>Represents all blocks using text and images</p>
                             </li>
                             <li>
-                                Sections pieces off to be build otherwhere and later placed onto the build.
+                                <p>Sections pieces off to be build otherwhere and later placed onto the build.</p>
                             </li>
                         </ul>
                         <b>Cons:</b>
                         <ul>
                             <li>
-                                The colors are reminiscent of colors in young children media, even by name, as the color resembles baby blue.
+                                <p>The colors are reminiscent of colors in young children media, even by name, as the color resembles baby blue.</p>
                             </li>
                             <li>
-                                Arrows may be too small
+                                <p>Arrows may be too small</p>
                             </li>
                             <li>
-                                Will not provide multiple images to represent movement in the contraptions.
+                                <p>Will not provide multiple images to represent movement in the contraptions.</p>
                             </li>
                         </ul>
                     </>
@@ -139,7 +140,7 @@ function Instructions() {
                     </tr>
                     <tr>
                         <td><p><b>Game Niche</b></p></td>
-                        <td><P><b>Basic Redstone<sup>1</sup>.</b></P></td>
+                        <td><P><b>Basic Redstone<Sup refId="sup1">1</Sup>.</b></P></td>
                     </tr>
                     <tr>
                         <td><p><b>Education</b></p></td>
@@ -151,7 +152,7 @@ function Instructions() {
                         <td><p><b>Environment</b></p></td>
                         <td>
                             <P>
-                                <b>Pages and Webpages</b>. I plan to use my environment as both physical lego-like books and webpages once we return with our portfolio<sup>2</sup>.
+                                <b>Pages and Webpages</b>. I plan to use my environment as both physical lego-like books and webpages once we return with our portfolio<Sup refId="sup2">2</Sup>.
                             </P>
                         </td>
                     </tr>
@@ -167,7 +168,7 @@ function Instructions() {
                         <td><p><b>Block Usage</b></p></td>
                         <td>
                             <P>
-                                <b>Colorful Blocks</b>. I plan<sup>3</sup> to use blocks like wool and concrete in game because of the color variety and color saturations they provide. Sectioning different “wires” based on wool would make the connections easy to follow.
+                                <b>Colorful Blocks</b>. I plan<Sup refId="sup3">3</Sup> to use blocks like wool and concrete in game because of the color variety and color saturations they provide. Sectioning different “wires” based on wool would make the connections easy to follow.
                             </P>
                         </td>
                     </tr>
@@ -184,7 +185,7 @@ function Instructions() {
                 </div>} /></div>
                 <hr />
                 <p id="sup1">[1] Basic in terms of basic machines, should be titled "Basic Redstone Machines."</p>
-                <p id="sup2">[2] I am no longer be doing this.</p>
+                <p id="sup2">[2] I am no longer doing this.</p>
                 <p id="sup3">[3] I instead opted to use blocks like stone and dirt to follow a more natural look so that players could easily adapt it into their world.</p>
             </div>
         </Project>
