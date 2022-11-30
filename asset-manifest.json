@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.358e5f2a.css",
-    "main.js": "/static/js/main.f5b0eea6.js",
+    "main.css": "/static/css/main.d6343de3.css",
+    "main.js": "/static/js/main.5a1c148d.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/MinecraftInstructionsFinal.pdf": "/static/media/MinecraftInstructionsFinal.c2ae8948f3bd3dd66318.pdf",
     "static/media/appt2.png": "/static/media/appt2.1ed89fbe148439fa1387.png",
@@ -13,16 +13,17 @@
     "static/media/ResumeAndCover.pdf": "/static/media/ResumeAndCover.d5aae185e56ca9d426c0.pdf",
     "static/media/gitcontrolbranches.png": "/static/media/gitcontrolbranches.3926944c570ee981a155.png",
     "static/media/gitcontrolmain.png": "/static/media/gitcontrolmain.5e14d56fb6b3bb6630ec.png",
+    "static/media/ResearchProposal.pdf": "/static/media/ResearchProposal.f0ee073f6ca4bfac0063.pdf",
     "static/media/BookmanStd-Light.otf": "/static/media/BookmanStd-Light.29fee038780453f00577.otf",
     "static/media/latexkeychords.png": "/static/media/latexkeychords.fe4efd57a467c391a932.png",
     "static/media/gitcontrolmergeconflicts.png": "/static/media/gitcontrolmergeconflicts.ece65e71af47f4a8060a.png",
     "index.html": "/index.html",
-    "main.358e5f2a.css.map": "/static/css/main.358e5f2a.css.map",
-    "main.f5b0eea6.js.map": "/static/js/main.f5b0eea6.js.map",
+    "main.d6343de3.css.map": "/static/css/main.d6343de3.css.map",
+    "main.5a1c148d.js.map": "/static/js/main.5a1c148d.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.358e5f2a.css",
-    "static/js/main.f5b0eea6.js"
+    "static/css/main.d6343de3.css",
+    "static/js/main.5a1c148d.js"
   ]
 }
