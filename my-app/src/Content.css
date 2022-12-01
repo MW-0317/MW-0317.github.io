@@ -21,6 +21,8 @@ a:hover {
     margin: 0;
     margin-top: 1in;
     max-width: 8.5in;   
+    padding-left: 20px;
+    border-left: dashed 1px;
 }
 
 iframe {
