@@ -38,9 +38,10 @@
   min-width: 0px;
   max-width: 300px;
   display: flex;
-  margin-right: 20px;
-  padding-right: 50px;
-  border-right: dashed 1px;
+  /* margin-right: 20px; */
+  margin-right: 50px;
+  /* padding-right: 50px; */
+  /* border-right: dashed 1px; */
   /* flex-direction: row; */
 }
 
