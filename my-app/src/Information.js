@@ -26,15 +26,15 @@ function Information( {onC} ) {
         </div>
 
         <div className='contentSelection'>
+        <Link to="/" className='contentSelection'>
+            <button onClick={() => onC('home')}>
+              Home
+            </button>
+          </Link>
           <Link to="/" className='contentSelection'>
             <button onClick={() => onC('projects')}>
               Projects
             </button>
-          </Link>
-          <Link to="/" className='contentSelection'>
-            <button onClick={() => onC('resources')}>
-              Extra
-            </button>  
           </Link>
           <Link to="/" className='contentSelection'>
             <button onClick={() => onC('notes')}>
@@ -44,6 +44,11 @@ function Information( {onC} ) {
           <Link to="/" className='contentSelection'>
             <button onClick={() => onC('aboutme')}>
               About Me
+            </button>  
+          </Link>
+          <Link to="/" className='contentSelection'>
+            <button onClick={() => onC('resources')}>
+              Extra
             </button>  
           </Link>
         </div>

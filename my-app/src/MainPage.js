@@ -16,12 +16,13 @@ import AboutMe from './contentpages/AboutMe';
 import Notes from './contentpages/Notes';
 import JobMaterials from './contentpages/projects/enc3241/JobMaterials';
 import ResearchProposal from './contentpages/projects/enc3241/ResearchProposal';
+import Home from './contentpages/Home';
 
 class MainPage extends Component {
     // constructor(props) {
     //     super(props);
     // }
-    state = { currentPage: <Projects /> }
+    state = { currentPage: <Home /> }
 
     changeState = (s) => {
         let page;
@@ -31,8 +32,10 @@ class MainPage extends Component {
             page = <Projects />
         } else if (s === "aboutme") {
             page = <AboutMe />
-        } else {
+        } else if (s === "notes") {
             page = <Notes />
+        } else {
+            page = <Home />
         }
         this.setState({currentPage: page});
     }

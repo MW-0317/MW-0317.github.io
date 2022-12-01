@@ -74,6 +74,7 @@
   flex-direction: column;
   margin-top: 0.5em;
   float: left;
+  text-decoration: none;
 }
 
 button {
@@ -85,11 +86,16 @@ button {
   cursor: pointer;
   /* margin-top: 1em; */
   text-align: left;
+  
+  transition-duration: 200ms;
+}
+
+button p {
+  text-decoration: none;
 }
 
 button:hover {
   border-right: 2px solid limegreen; /* green */
   border-bottom: 2px solid limegreen;
   transform: translate(1em, 0);
-  transition-duration: 50ms;
 }

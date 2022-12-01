@@ -4,9 +4,9 @@ a {
     cursor: pointer;
 }
 
-a:link {
+/* a:link {
     text-decoration: none;
-}
+} */
 
 a:visited {
     text-decoration: none;
@@ -17,12 +17,15 @@ a:hover {
 }
 
 .Content {
-    min-width: auto;
+    /* min-width: auto; */
+    min-width: 8.5in;
     margin: 0;
     margin-top: 1in;
     max-width: 8.5in;   
     padding-left: 20px;
     border-left: dashed 1px;
+
+    /* Flex Properties*/
 }
 
 iframe {
