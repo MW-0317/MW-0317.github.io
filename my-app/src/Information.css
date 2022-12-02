@@ -19,9 +19,9 @@
   right: 0;
   top: 35%;
   z-index: 2; 
-  /* text-shadow:    3px 0 #fff, -3px 0 #fff, 0 3px #fff, 0 -3px #fff,
+  text-shadow:    3px 0 #fff, -3px 0 #fff, 0 3px #fff, 0 -3px #fff,
                   2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
-                  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; */
+                  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 
 .Sidebar {

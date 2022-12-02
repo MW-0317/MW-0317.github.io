@@ -1,0 +1,18 @@
+.firstname {
+    color: limegreen;
+    display: inline-block;
+}
+
+.lastname {
+    display: inline-block;
+}
+
+.logohome {
+    height: 600px;
+    width: 600px;
+    pointer-events: none;
+}
+
+.homepage {
+    align-items: center;
+}

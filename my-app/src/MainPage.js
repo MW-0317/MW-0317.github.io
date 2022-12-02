@@ -16,13 +16,13 @@ import AboutMe from './contentpages/AboutMe';
 import Notes from './contentpages/Notes';
 import JobMaterials from './contentpages/projects/enc3241/JobMaterials';
 import ResearchProposal from './contentpages/projects/enc3241/ResearchProposal';
-import Home from './contentpages/Home';
+import Home from './Home';
 
 class MainPage extends Component {
     // constructor(props) {
     //     super(props);
     // }
-    state = { currentPage: <Home /> }
+    state = { currentPage: <></>, stringCurrPage: "homepage" }
 
     changeState = (s) => {
         let page;
@@ -35,9 +35,9 @@ class MainPage extends Component {
         } else if (s === "notes") {
             page = <Notes />
         } else {
-            page = <Home />
+            page = <></>
         }
-        this.setState({currentPage: page});
+        this.setState({currentPage: page, stringCurrPage: s});
     }
 
 
@@ -45,7 +45,7 @@ class MainPage extends Component {
         return ( 
             <div className='bodyFlex'>
                 <Router>
-                    <Information onC={this.changeState} />
+                    {this.state.stringCurrPage === "homepage" ? <Home /> : <Information onC={this.changeState} /> }
                     {/* <hr className='vr'/> */}
                     <Routes>
                         <Route path='/'                         exact   element={this.state.currentPage}/>
