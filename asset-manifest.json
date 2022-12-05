@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.f6022aba.css",
-    "main.js": "/static/js/main.b4901381.js",
+    "main.js": "/static/js/main.a43282a7.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/MinecraftInstructionsFinal.pdf": "/static/media/MinecraftInstructionsFinal.c2ae8948f3bd3dd66318.pdf",
+    "static/media/MinecraftInstructionsRevised.pdf": "/static/media/MinecraftInstructionsRevised.bc0d07901a7aa27ed766.pdf",
     "static/media/appt2.png": "/static/media/appt2.1ed89fbe148439fa1387.png",
     "static/media/lego1.png": "/static/media/lego1.535306d51ba81abd73b3.png",
     "static/media/LatexEqs.pdf": "/static/media/LatexEqs.49f271536d21ef515e74.pdf",
-    "static/media/MinecraftInstructionsRevised.pdf": "/static/media/MinecraftInstructionsRevised.4eef7027325e167e1f9c.pdf",
     "static/media/cube.gif": "/static/media/cube.7843de640ee59d58f6af.gif",
     "static/media/appt1.png": "/static/media/appt1.cb606ad7acf0578cc586.png",
     "static/media/gitcontrolmerges.png": "/static/media/gitcontrolmerges.23cdc6d3ef0e0d271c2f.png",
@@ -23,11 +23,11 @@
     "index.html": "/index.html",
     "static/media/backbtno2.svg": "/static/media/backbtno2.7de399b667cf0956feee603f2b4a2b83.svg",
     "main.f6022aba.css.map": "/static/css/main.f6022aba.css.map",
-    "main.b4901381.js.map": "/static/js/main.b4901381.js.map",
+    "main.a43282a7.js.map": "/static/js/main.a43282a7.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6022aba.css",
-    "static/js/main.b4901381.js"
+    "static/js/main.a43282a7.js"
   ]
 }
