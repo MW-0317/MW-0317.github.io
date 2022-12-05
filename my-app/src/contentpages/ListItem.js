@@ -6,9 +6,9 @@ function ListItem( {href, title, desc, isFile} ) {
     return ( 
         <div className='resource'>
             {isFile ? <a className='link' href={href}> {title} </a> : <Link className='link' to={href}> {title} </Link>}
-            <p className='rDetail'>
+            <div className='rDetail'>
                 {desc}
-            </p>
+            </div>
         </div>
      );
 }

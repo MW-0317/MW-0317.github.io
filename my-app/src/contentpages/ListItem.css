@@ -5,12 +5,8 @@
 }
 
 .resource {
-    margin-bottom: 5%;
+    margin-bottom: 25px;
     /* width: 6.5in; */
-    max-width: 6.5in;
+    /* max-width: 6.5in; */
 }
 
-h2 {
-    margin-top: 4%;
-    margin-bottom: 2%;
-}

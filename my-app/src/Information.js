@@ -26,8 +26,8 @@ function Information( {onC} ) {
         </div>
 
         <div className='contentSelection'>
-        <Link to="/" className='contentSelection'>
-            <button onClick={() => onC('home')}>
+          <Link to="/home" className='contentSelection'>
+            <button>
               Home
             </button>
           </Link>

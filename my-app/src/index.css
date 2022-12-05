@@ -9,36 +9,35 @@ body {
   /* background: linear-gradient(to bottom, white, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg); */
   /* margin: 0; */
   /* margin-top: 5%; */
-  font-family: Bookman, Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* margin-left: 5vh; */
-  min-height: 100vh;
+  /* min-height: 98vh; */
   max-height: 100%;
+  margin: auto;
+  overflow-x: hidden;
+  /* overflow: auto; */
 }
 
 h1 {
+  font-family: Bookman, Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
 }
 
 h2 {
+  font-family: Bookman, Georgia, 'Times New Roman', Times, serif;
   font-size: 32px;
 }
 
 h3 {
+  font-family: Bookman, Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
 }
 
 p {
-  font-family: Georgia, serif;
   font-size: medium;
   line-height: 1.6;
-}
-
-.fig-text {
-  font-size: 14px;
-  text-align: center;
-  font-style: italic;
 }
 
 .br {
@@ -67,4 +66,11 @@ td, th {
   background-color: #ffff3d;
   -webkit-text-stroke-width: 1px;
   color: #333;
+}
+
+button {
+  font-family: 'Georgia', serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-weight: bolder;
+  text-transform: uppercase;
 }

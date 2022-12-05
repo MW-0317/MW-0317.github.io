@@ -5,10 +5,10 @@ import './Home.css';
 
 function Home( {onC} ) {
   return (
-    <div className="Information">
+    <div className="homeInfo">
       <header className="homepage">
 
-        <div className="fullLogo">
+        <div className="fullhomeLogo">
           <img src={logo} className="logohome" alt="logo" />
           <div className='aboveText'>Hello World!</div>
         </div>
@@ -20,34 +20,29 @@ function Home( {onC} ) {
               Williams
             </h1>
         </div>
-        <div className='desc'>
+        <div className='descHome'>
           <p>
             Computer Science Student @ UCF Wanting to become a graphics programmer
           </p>
         </div>
 
-        <div className='contentSelection'>
-        <Link to="/" className='contentSelection'>
-            <button onClick={() => onC('home')}>
-              Home
-            </button>
-          </Link>
-          <Link to="/" className='contentSelection'>
+        <div className='contentSelectionHome'>
+          <Link to="/" className='contentSelectionHome'>
             <button onClick={() => onC('projects')}>
               Projects
             </button>
           </Link>
-          <Link to="/" className='contentSelection'>
+          <Link to="/" className='contentSelectionHome'>
             <button onClick={() => onC('notes')}>
               Notes
             </button>
           </Link>
-          <Link to="/" className='contentSelection'>
+          <Link to="/" className='contentSelectionHome'>
             <button onClick={() => onC('aboutme')}>
               About Me
             </button>  
           </Link>
-          <Link to="/" className='contentSelection'>
+          <Link to="/" className='contentSelectionHome'>
             <button onClick={() => onC('resources')}>
               Extra
             </button>  
