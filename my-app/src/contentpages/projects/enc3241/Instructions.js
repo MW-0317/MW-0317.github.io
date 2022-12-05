@@ -198,9 +198,9 @@ function Instructions() {
                 </P>
                 <ol>
                     <li>I had not labeled each of my graphics.</li>
-                    <li>It was not clear that to follow the instructions the blocks I require would need to be collected first.</li>
+                    <li>It was not clear that, to follow the instructionsm the blocks required would need to be collected first.</li>
                     <li>Have bigger and easier to read text.</li>
-                    <li>Decrease some of the graphics on page 3 to balance the design.</li>
+                    <li>Decrease the size of some of the graphics on page 3 to balance the design.</li>
                 </ol>
                 <P>
                     Then I had one last issue that I realized I had not done.

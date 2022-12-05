@@ -20,7 +20,7 @@ function JobMaterials() {
                     Unrevised Job Materials
                 </h2>
                 <P>
-                    In the class ENC3241 I was tasked with findind a job that interested me an creating a resume, cover letter, and quick video interview. Below are the unrevised job materials, including my resume and cover letter. This was to a position in Plantation, FL as it was close to home, since I would be moving back home for the summer semester. I however did not ever submit this resume and cover letter as I did not meet my own standards, however I do regret not applying. I plan to apply more heavily for summer jobs over the coming winter break (Dec 2022).
+                    In the class ENC3241 I was tasked with findind a job that interested me and creating a resume, cover letter, and quick video interview. Below are the unrevised job materials, including my resume and cover letter. This was to a position in Plantation, FL as it was close to home, since I would be moving back home for the summer semester. I however did not ever submit this resume and cover letter as I did not meet my own standards, however I do regret not applying. I plan to apply more heavily for summer jobs over the coming winter break (Dec 2022).
                 </P>
                 <h3>Resume and Cover Letter</h3>
                 <iframe src={rc} title="Resume and Cover Letter" width="100%"></iframe>
@@ -32,7 +32,7 @@ function JobMaterials() {
                     Video
                 </h3>
                 <P>
-                    I will have to apologize for the speed as I do talk a little fast, however it should be noted that I needed to fit this inside a 75 second window. This is at fault of me however since I need to condense what I say in quick interviews to shorter amounts of information that can fit inside this window.
+                    I will have to apologize for the speed as I do talk a little fast, however it should be noted that I needed to fit this inside a 75 second window as a requirement in the ENC3241 project. I easily surpass this, mistakenly. In future video interviews I need to condense what I say into shorter amounts of information that can fit inside this 75 second window.
                 </P>
                 <iframe src="https://www.youtube.com/embed/2q2tohLFkJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <FigureText>

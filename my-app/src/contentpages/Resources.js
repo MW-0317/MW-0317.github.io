@@ -33,6 +33,7 @@ function Resources() {
                 <ListItem isFile href="https://castel.dev" title="Website/Future Inspiration - Gilles Castel" desc="A programmer and mathematician by the name Gilles Castel." />
                 <ListItem isFile href="http://www.cs.ucf.edu/~dmarino/ucf/index.html" title="Website Inspiration - Arup Guha" desc="Professor at the University of Central Florida, who I enjoy their website's simplicity."/>
                 <ListItem isFile href="https://www.google.com" title="Google" desc="Programming is mostly a skill based on Googling. "/>
+                <ListItem isFile href="https://en.wikipedia.org/wiki/Main_Page" title="Website Inspiration - Wikipedia" desc="I wanted to base this website on the idea of acquiring information in a simple manner that require limited processes to run, like Wikipedia which runs almost instantly as it barely has much code to make it run properly. It's designed like a professional Word document, just online: simple and clean."/>
             </Content>
         </div>
      );

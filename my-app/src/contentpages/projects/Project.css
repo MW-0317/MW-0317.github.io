@@ -62,4 +62,6 @@ iframe {
     width: 8.5in;
     margin-left: 50%;
     transform: translate(-50%);
+    border: 10px solid #333333;
+    border-radius: 5px;
 }
