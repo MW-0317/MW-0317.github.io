@@ -8,6 +8,7 @@ import Example from './contentpages/projects/Example';
 import Untitled1v1 from './contentpages/projects/Untitled1v1';
 import UnderstandingGit from './contentpages/projects/u1v1/UnderstandingGit';
 import InstallingGitHub from './contentpages/projects/u1v1/InstallingGitHub';
+import UkrainePaper from './contentpages/projects/enc1102/UkrainePaper';
 import Instructions from './contentpages/projects/enc3241/Instructions';
 // import Content from './Content';
 
@@ -53,6 +54,7 @@ class MainPage extends Component {
                         <Route path='/project/u1v1'                     element={<Untitled1v1 />}/>
                         <Route path='/project/u1v1/understanding-git'   element={<UnderstandingGit />} />
                         <Route path='/project/u1v1/installing-github'   element={<InstallingGitHub />}/>
+                        <Route path='/project/enc1102/ukraine-paper'    element={<UkrainePaper />}/>
                         <Route path='/project/enc3241/instructions'     element={<Instructions />} />
                         <Route path='/project/enc3241/jobmat'           element={<JobMaterials />} />
                         <Route path='/project/enc3241/research'         element={<ResearchProposal />} />

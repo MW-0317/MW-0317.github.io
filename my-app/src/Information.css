@@ -86,12 +86,7 @@ button {
   cursor: pointer;
   /* margin-top: 1em; */
   text-align: left;
-  
   transition-duration: 200ms;
-}
-
-button p {
-  text-decoration: none;
 }
 
 button:hover {
