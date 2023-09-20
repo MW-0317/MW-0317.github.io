@@ -11,13 +11,14 @@ function Projects() {
                 </h1>
                 {/* <ListItem href="/project/example"   title="Example Page" desc="Example Page for a project"/> */}
                 {/* <ListItem href="/project/u1v1"      title="Untitled1v1 Game Resources" desc="For those involved in creation of the game"/> */}
+                <ListItem href="/project/luna"                  title="Luna Engine"             desc="A game or rendering engine named luna."/>
                 <h1>
                     Projects @ UCF
                 </h1>
                 <h2>
                     ENC 1102
                 </h2>
-                <ListItem href="/project/enc1102/ukraine-paper" title="[Unnamed]"               desc="[BLANK]"/>
+                <ListItem href="/project/enc1102/ukraine-paper" title="War in Ukraine"          desc="A paper researching the formulation of trends during the beginning of recent Ukraine-Russia War."/>
                 <h2>
                     ENC 3241
                 </h2>

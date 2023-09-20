@@ -20,14 +20,16 @@
 }
 
 .logohome {
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     pointer-events: none;
+    object-fit: cover;
     /* position: absolute; */
     /* left: 50%; */
 }
 
 .fullhomeLogo{
+    max-height: fit-content;
     position: relative;
     /* left: -4%; */
 }
@@ -38,6 +40,7 @@
 }
 
 .homeInfo {
+    max-height: fit-content;
     margin: auto;
     text-align: center;
 }

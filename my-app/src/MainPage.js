@@ -5,6 +5,7 @@ import Projects from './contentpages/Projects';
 import Resources from './contentpages/Resources';
 import Information from './Information';
 import Example from './contentpages/projects/Example';
+import Luna from './contentpages/projects/personal/Luna';
 import Untitled1v1 from './contentpages/projects/Untitled1v1';
 import UnderstandingGit from './contentpages/projects/u1v1/UnderstandingGit';
 import InstallingGitHub from './contentpages/projects/u1v1/InstallingGitHub';
@@ -49,6 +50,7 @@ class MainPage extends Component {
                         <Route path='/home'                             element={<></>} />
                         <Route path='/'                                 element={this.state.currentPage}/>
                         <Route path='/project/example'                  element={<Example />}/>
+                        <Route path="/project/luna"                     element={<Luna />}/>
                         <Route path='/project/u1v1'                     element={<Untitled1v1 />}/>
                         <Route path='/project/u1v1/understanding-git'   element={<UnderstandingGit />} />
                         <Route path='/project/u1v1/installing-github'   element={<InstallingGitHub />}/>
