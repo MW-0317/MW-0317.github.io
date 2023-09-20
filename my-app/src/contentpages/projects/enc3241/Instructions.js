@@ -1,6 +1,7 @@
 import React from 'react';
 
 import instructions from './src/MinecraftInstructionsFinal.pdf';
+import revised from './src/MinecraftInstructionsRevised.pdf';
 import appt1 from './src/appt1.png';
 import appt2 from './src/appt2.png';
 import lego1 from './src/lego1.png';
@@ -10,6 +11,8 @@ import ListItem from '../../ListItem';
 import P from '../../../tools/P';
 import TwoColumn from '../../../tools/TwoColumn';
 import Sup from '../../../tools/Sup';
+import FigureText from '../../../tools/FigureText';
+import Callout from '../../../tools/Callout';
 
 function Instructions() {
     return ( 
@@ -18,6 +21,7 @@ function Instructions() {
                 <h1>
                     Minecraft Redstone Instructions
                 </h1>
+                <hr />
                 <h2>
                     Background
                 </h2>
@@ -33,9 +37,9 @@ function Instructions() {
                 <h2>
                     Initial Brainstorm
                 </h2>
-                <div className='fig-text'>
-                    <i>Below is the initial brainstorm of my instructions before I began creation.</i>
-                </div>
+                <Callout>
+                    <center><i>NOTE: Below is the "Initial Brainstorm" that I conducted before I began creation.</i></center>
+                </Callout>
                 <h3>
                     An Overview
                 </h3>
@@ -123,6 +127,7 @@ function Instructions() {
                 }
                 />
                 <table>
+                    <tbody>
                     <tr>
                         <th></th>
                         <th>Audience</th>
@@ -172,6 +177,7 @@ function Instructions() {
                             </P>
                         </td>
                     </tr>
+                    </tbody>
                 </table>
                 <h2>
                     Creation
@@ -180,13 +186,47 @@ function Instructions() {
                     After heavy development I finally created what is shown below. There's not much else between the idealization and creation as I did not heavily document the process.
                 </P>
                 <iframe src={instructions} title="Instructions" width="100%" height="500px"></iframe>
-                <div className='fig-text'><ListItem isFile href={instructions} title="Instructions Link" desc={<div className='fig-text'>
-                    *Not up to date and unrevised.
-                </div>} /></div>
+                <FigureText>
+                    <b>Figure 1</b>
+                    <ListItem isFile href={instructions} title="Instructions Link" desc={<FigureText>*Not up to date and unrevised.</FigureText>} />
+                </FigureText>
+                <h2>
+                    Revisions
+                </h2>
+                <P>
+                    After submitting this to my professor in ENC3241, I quickly noticed small and fixable issues that arose in my project.
+                </P>
+                <ol>
+                    <li>I had not labeled each of my graphics.</li>
+                    <li>It was not clear that, to follow the instructionsm the blocks required would need to be collected first.</li>
+                    <li>Have bigger and easier to read text.</li>
+                    <li>Decrease the size of some of the graphics on page 3 to balance the design.</li>
+                </ol>
+                <P>
+                    Then I had one last issue that I realized I had not done.
+                </P>
+                <ol start="5">
+                    <li>I needed to add Mineways and Blender as software sources since they helped so heavily.</li>
+                </ol>
+                <P>
+                    Below you will see my finished and revised instructions, note that the changes are small. These changes are:
+                </P>
+                <ol>
+                    <li>Finally labled the more important figures.</li>
+                    <li>Shrunk figures 4-6 and increased the size of the surrounding text to create balance.</li>
+                    <li>Fixed weird borders around my notes, warnings, and tips.</li>
+                    <li>Added Mineways and Blender as references as they were very usefull in my work.</li>
+                    <li>A note that states the blocks and items need to be gathered before following the instructions.</li>
+                </ol>
+                <iframe src={revised} title="Instructions" width="100%" height="500px"></iframe>
+                <FigureText>
+                    <b>Figure 2</b>
+                    <ListItem isFile href={revised} title="Revised Instructions Link" desc={<FigureText>Up to date and revised instructions.</FigureText>} />
+                </FigureText>
                 <hr />
-                <p id="sup1">[1] Basic in terms of basic machines, should be titled "Basic Redstone Machines."</p>
-                <p id="sup2">[2] I am no longer doing this.</p>
-                <p id="sup3">[3] I instead opted to use blocks like stone and dirt to follow a more natural look so that players could easily adapt it into their world.</p>
+                <p id="sup1"><sup>1</sup>Basic in terms of basic machines, should be titled "Basic Redstone Machines."</p>
+                <p id="sup2"><sup>2</sup>I am no longer doing this.</p>
+                <p id="sup3"><sup>3</sup>I instead opted to use blocks like stone and dirt to follow a more natural look so that players could easily adapt it into their world.</p>
             </div>
         </Project>
     );

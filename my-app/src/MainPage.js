@@ -17,39 +17,37 @@ import AboutMe from './contentpages/AboutMe';
 import Notes from './contentpages/Notes';
 import JobMaterials from './contentpages/projects/enc3241/JobMaterials';
 import ResearchProposal from './contentpages/projects/enc3241/ResearchProposal';
-import Home from './contentpages/Home';
+import Home from './Home';
+import EmptyPage from './EmptyPage';
 
 class MainPage extends Component {
     // constructor(props) {
     //     super(props);
     // }
-    state = { currentPage: <Home /> }
-
     changeState = (s) => {
-        let page;
-        if (s === "resources"){
-            page = <Resources />
-        } else if (s === "projects") {
-            page = <Projects />
-        } else if (s === "aboutme") {
-            page = <AboutMe />
-        } else if (s === "notes") {
-            page = <Notes />
-        } else {
-            page = <Home />
-        }
-        this.setState({currentPage: page});
+        this.setState({currentPage: this.dict[s], stringCurrPage: s});
     }
+
+    state = { currentPage: <Projects />, stringCurrPage: "projects"}
+
+    dict = {"resources": <Resources />, "projects": <Projects />, "aboutme": <AboutMe />, "notes": <Notes />};
 
 
     render() { 
         return ( 
             <div className='bodyFlex'>
                 <Router>
-                    <Information onC={this.changeState} />
+                    <Routes>
+                        <Route path='/home'     element={<Home onC={this.changeState} />} />
+                        <Route path='/*'         element={<Information onC={this.changeState} />} />
+                        {/* <Route path='/*'                                element={window.location.pathname === "/home" ? <Home onC={this.changeState} /> : <Information onC={this.changeState} />}/> */}
+                    </Routes>
+                    {/* {this.state.stringCurrPage === "home" ? <></> : <Information onC={this.changeState} /> } */}
                     {/* <hr className='vr'/> */}
                     <Routes>
-                        <Route path='/'                         exact   element={this.state.currentPage}/>
+                        <Route path='/*'                                element={<EmptyPage />} />
+                        <Route path='/home'                             element={<></>} />
+                        <Route path='/'                                 element={this.state.currentPage}/>
                         <Route path='/project/example'                  element={<Example />}/>
                         <Route path='/project/u1v1'                     element={<Untitled1v1 />}/>
                         <Route path='/project/u1v1/understanding-git'   element={<UnderstandingGit />} />

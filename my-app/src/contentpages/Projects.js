@@ -4,8 +4,8 @@ import ListItem from './ListItem';
 
 function Projects() {
     return ( 
-        <div className='projects'>
-            <Content>
+        <Content>
+            <div className='projects'>
                 <h1>
                     Projects @ Home
                 </h1>
@@ -21,11 +21,11 @@ function Projects() {
                 <h2>
                     ENC 3241
                 </h2>
-                <ListItem href="/project/enc3241/instructions"  title="Minecraft Instructions"  desc="Instructions for building a basic Minecraft Redstone Build" />
-                <ListItem href="/project/enc3241/jobmat"        title="Job Materials"           desc="Materials for Applying for a Job" />
-                <ListItem href="/project/enc3241/research"      title="Research Proposal"       desc="Research Proposal for COVID-19 in the classroom and it's effect on stress in close proximity to one another." />
-            </Content>
-        </div>
+                <ListItem href="/project/enc3241/instructions"  title="Minecraft Instructions"  desc="The instructions for building a basic Minecraft Redstone Build, specifically the 'Jeb' door. See instructions for defintion." />
+                <ListItem href="/project/enc3241/jobmat"        title="Job Materials"           desc="My current job materials for applying to a job, including my resume, cover letter, and video interview." />
+                <ListItem href="/project/enc3241/research"      title="Research Proposal"       desc="A mock research proposal for an Undergraduate Research opportunity. This proposal specialized in the concept of COVID-19 in the classroom and it's effect on stress in close proximity to one another." />
+            </div>
+        </Content>
      );
 }
 

@@ -1,26 +1,36 @@
 .project {
-    width: 6.5in;
+    width: 0;
     min-width: 6.5in;
-    background-color: #fff;
-    padding: 1in;
-    /* padding-left: 1in;
-    padding-right: 1in; */
-    border: 1px solid #666;
+
+
+
+    border-left: 1px dashed #666;
     margin: auto;
     margin-top: 1in;
     margin-bottom: 1in;
-    display: block;
+    margin-left: 1%;
+    margin-right: 1%;
+
+    background-color: #fff;
+    /* border: 1px solid #666; */
+    padding: 1in;
+
+    /* Flex CSS */
+    flex-grow: 1;
+    /* flex: 0 0 calc(8.5in + 300px + 50px + 20px); */
 }
 
-h1 {
-    margin-top: 0;
+@media (max-width: calc(8.5in + 300px + 50px + 20px)) { 
+    .project {
+        border-left: none;
+    }
 }
 
 .backbtn {
     position: absolute;
     float: left;
-    left: -1.75in;
-    top: -1.75in;
+    left: -0.75in;
+    top: -0.75in;
     border: none;
     align-items: center;
     text-align: center;
@@ -36,6 +46,7 @@ h1 {
 }
 
 .backbtn:hover .backarrow {
+    /* Weird way to convert to limegreen for svg's/img's */
     filter: invert(63%) sepia(13%) saturate(2718%) hue-rotate(71deg) brightness(100%) contrast(87%);
 
 }
@@ -43,4 +54,14 @@ h1 {
 .bbtxt {
     font-size: 25px;
     margin: 0;
+}
+
+iframe {
+    margin-top: 0.3in;
+    height: 11in;
+    width: 8.5in;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 10px solid #333333;
+    border-radius: 5px;
 }
