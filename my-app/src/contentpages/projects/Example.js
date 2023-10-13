@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import Project from './Project';
 import Tab from '../../tools/Tab';
+import P from '../../tools/P';
+
+import ReactDOM from 'react-dom/client';
+import 'katex/dist/katex.min.css';
+import { InlineMath, BlockMath } from 'react-katex';
 
 class Example extends Component {
     // constructor(props) {
@@ -29,6 +34,16 @@ class Example extends Component {
                     <p>  
                         <Tab/>Egestas tellus rutrum tellus pellentesque eu. Curabitur vitae nunc sed velit dignissim. Urna nec tincidunt praesent semper. Ipsum dolor sit amet consectetur adipiscing elit. Urna et pharetra pharetra massa. Montes nascetur ridiculus mus mauris vitae ultricies leo integer. Morbi quis commodo odio aenean sed. Adipiscing at in tellus integer feugiat scelerisque varius. Id aliquet lectus proin nibh nisl. Mi in nulla posuere sollicitudin aliquam.
                     </p>
+                    <P>
+                        Also an example of KaTeX:
+                    </P>
+                    <div>
+                        <BlockMath>{'\\int_0^1 x^2 dx'}</BlockMath>
+                    </div>
+                    <P>
+                        Iframe Test
+                    </P>
+                    <iframe src='https://www.desmos.com/calculator/a35blqintc'></iframe>
                 </div>
             </Project>
          );

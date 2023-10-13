@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './CardItem.css';
 
 function CardItem( {href, title, desc, isFile, imgSrc} ) {
-    return ( 
+    return (
         <div className='card-resource'>
             <div className='card-image'>
                 <img src={imgSrc} alt="N/A"/>

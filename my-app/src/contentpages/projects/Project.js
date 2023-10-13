@@ -1,6 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, /*useEffect*/ } from 'react';
 import './Project.css';
 import { Link } from 'react-router-dom';
+
+import ReactDOM from 'react-dom/client';
+import 'katex/dist/katex.min.css';
+import { InlineMath, BlockMath } from 'react-katex';
 
 import backbtn from './src/backbtno2.svg';
 

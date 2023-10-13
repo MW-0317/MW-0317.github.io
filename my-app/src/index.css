@@ -63,10 +63,16 @@ td, th {
   padding: 10px;
 }
 
-::selection {
+/* ::selection {
   background-color: #ffff3d;
   -webkit-text-stroke-width: 1px;
   color: #333;
+} */
+
+::selection {
+  background-color: #32cd324f;
+  -webkit-text-stroke-width: 1px;
+  color: #111;
 }
 
 button {
