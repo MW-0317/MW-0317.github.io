@@ -2,6 +2,7 @@ a {
     color: darkslategray;
     font-size: larger;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* a:link {
