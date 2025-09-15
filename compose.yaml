@@ -1,0 +1,9 @@
+services:
+  wiki:
+    build: .
+    container_name: portfolio
+    # command: pandoc main/test.md -f markdown -t html --filter src/filter.py -o test.html
+    # command: find main -name "*.md" -type f -exec sh -c 'pandoc -f markdown -t html --filter src/filter.py -o "build/$${1%.*}.html" "$$1"' find-sh {} \;
+    command: python ./src/main.py
+    volumes:
+      - .:/code
