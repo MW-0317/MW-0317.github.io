@@ -51,8 +51,9 @@ body {
 
 img {
     max-height: 20em;
-    margin: 10px auto;
-    display: block;
+    margin: 5px 15px;
+    float: left;
+    /* display: block; */
     padding: 5px;
     border: 3px dashed var(--TEXT);
 }
@@ -61,6 +62,8 @@ iframe {
     display: block;
     margin: 10px auto;
     padding: 5px;
+    margin: 5px 15px;
+    float: right;
     /* border: var(--TEXT);
     border-width: 10px; */
     border: 3px dashed var(--TEXT);
