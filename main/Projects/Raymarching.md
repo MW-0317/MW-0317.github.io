@@ -18,6 +18,9 @@ I saw this incredible video attempting to simulate a black hole by *assuming* li
 To obtain a curve or "gravitational pull" on this ray that passes by the black hole, we must first find the distance to the black hole. Since we're already using ray's it'll be easiest to use **Signed Distance Functions**. These are like building blocks of building geometry out of rays instead of the typical triangles we're used to. We traverse along the ray, calculating the distance from some SDF shape, and once we "enter" the shape (where the distance is less than zero) we stop the ray and set the color value to the color of the shape. However, we'll be using the typical SDF's a little differently. Instead, we'll be using the distance to apply the gravitational pull the ray experiences.
 ## Clouds
 Blah blah blah
+## Implementing in Godot
+Godot has many options towards 
+
 # References
 - Based on this [video](https://www.youtube.com/watch?v=dMohMW29gSM)
 - Oh and [this one](https://www.youtube.com/watch?v=ryB8hT5TMSg) too

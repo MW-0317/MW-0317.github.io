@@ -6,7 +6,7 @@ import shutil
 def remap_links(doc):
     elms = pandoc.iter(doc)
     for elm in elms:
-        if isinstance(elm, Link):  
+        if isinstance(elm, Link) and elm[2][0].endswith("md"):
             elm[2] = (os.path.splitext(elm[2][0])[0] + ".html", '')
 
 class ObsidianVault:
@@ -24,7 +24,8 @@ class ObsidianVault:
                 continue
             for dir in dirs:
                 d = Path(dir)
-                new_dir = folder / d
+                main = p.relative_to("main")
+                new_dir = folder / main / d
                 if not os.path.isdir(new_dir):
                     print("Making Dir:", new_dir)
                     new_dir.mkdir()
