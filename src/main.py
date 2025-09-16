@@ -62,6 +62,11 @@ class ObsidianVault:
         </ul>
         <ul>
             <li>
+                <a href="{0}Articles.html">Articles</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
                 <a href="{0}Projects.html">Projects</a>
             </li>
         </ul>
