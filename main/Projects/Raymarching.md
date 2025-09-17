@@ -19,12 +19,12 @@ To obtain a curve or "gravitational pull" on this ray that passes by the black h
 ## Clouds
 Blah blah blah
 ## Implementing in Godot
-Godot has many options towards 
-
+Godot has a few options towards the post processing that raymarching requires. The first and most obvious is using [CanvasItem](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html) shaders. Godot splits the usage of shaders into differing types where CanvasItem shaders are shaders typically used for rendering for UI or 2D games, however we will use it as a screen that will layer atop 
 # References
 - Based on this [video](https://www.youtube.com/watch?v=dMohMW29gSM)
 - Oh and [this one](https://www.youtube.com/watch?v=ryB8hT5TMSg) too
 - [SDF's](https://iquilezles.org/articles/distfunctions/)
+- [Godot Shaders Documentation](https://docs.godotengine.org/en/stable/tutorials/shaders/index.html)
 # Further Reading
 - [4D Raytracing](https://www.youtube.com/watch?v=FS8NotZ3diY)
 # Future Ideas
