@@ -349,14 +349,7 @@ ul.task-list li input[type="checkbox"] {
     margin: 0.5rem auto;
 }
 
-/*.note {
-    position: relative;
-    top: 10%;
-    right: 2em;
-    transform: translateX(calc(20vw - 50%));
-    float: right;
-    max-width: 20em;
-}*/
+/* Much of the following taken from: https://www.youtube.com/watch?v=YvnTsiIFXeI and https://www.gingerbill.org/article/2026/01/19/two-families-of-markup-languages/ */
 
 .note-number {
     counter-increment: note-counter;
