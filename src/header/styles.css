@@ -35,12 +35,8 @@ html {
 
 body {
     margin: 0 auto;
-    width: 100%;
     max-width: 52em;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
     hyphens: auto;
     overflow-wrap: break-word;
     text-rendering: optimizeLegibility;
@@ -78,7 +74,7 @@ canvas {
     border: 1px dashed #666;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     body {
         font-size: 0.9em;
         padding: 12px;
@@ -87,7 +83,9 @@ canvas {
     h1 {
         font-size: 1.8em;
     }
-}
+}*/
+
+
 
 @media print {
     html {
@@ -349,4 +347,64 @@ ul.task-list li input[type="checkbox"] {
     display: block;
     text-align: center;
     margin: 0.5rem auto;
+}
+
+/*.note {
+    position: relative;
+    top: 10%;
+    right: 2em;
+    transform: translateX(calc(20vw - 50%));
+    float: right;
+    max-width: 20em;
+}*/
+
+.note-number {
+    counter-increment: note-counter;
+}
+
+label.note-number {
+    margin-left: -0.2em;
+    display: inline-block;
+    max-height: 2em;
+    color: #FFAAAA;
+    font-size: 10px;
+    transform: translateY(-10px);
+}
+
+.note-number::after,
+.note::before {
+    content: counter(note-counter) " ";
+}
+
+.note::before {
+    position: relative;
+    vertical-align: baseline;
+    top: -0.5em;
+    color: #FFAAAA;
+    font-size: 0.8em;
+    margin-left: -0.75em !important;
+}
+
+.note {
+    float: right;
+    clear: right;
+    margin-right: -45%;
+    max-width: 40%;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    vertical-align: baseline;
+    position: relative;
+}
+
+@media only screen and (max-width: 1600px) {
+    .note {
+        display: block;
+        float: left;
+        left: 1rem;
+        clear: both;
+        max-width: 95%;
+        margin: 1rem 2.5%;
+        vertical-align: baseline;
+        position: relative;
+    }
 }

@@ -9,6 +9,23 @@ def remap_links(doc):
         if isinstance(elm, Link) and elm[2][0].endswith("md"):
             elm[2] = (os.path.splitext(elm[2][0])[0] + ".html", '')
 
+def handle_footers(doc):
+    locations = []
+    for elt, path in pandoc.iter(doc, path=True):
+        if isinstance(elt, Note):
+            holder, index = path[-1]
+            locations.append((elt, holder, index))
+
+
+    for elt, holder, index in reversed(locations):
+        assert isinstance(elt, Note)
+        block = elt[0]
+        attr = ("", [""], [("", "")])
+        # s = Span(attr, block)
+        inline_string = pandoc.write(elt[0])
+        s = RawInline("html", "<label class=\"note-number\"></label><span class=\"note\">" + inline_string + "</span>")
+        holder[index] = s
+
 class ObsidianVault:
     vault_path : Path
     header : Path
@@ -51,6 +68,8 @@ class ObsidianVault:
 
                 # Convert .md links to .html
                 remap_links(doc)
+                if file_string == "Projects.md":
+                    handle_footers(doc)
 
                 print("Getting templates...")
                 header_template = ""
