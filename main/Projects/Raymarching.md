@@ -16,10 +16,14 @@ I wonder why we haven't found a way to simulate the wave-like properties of ligh
 I saw this incredible video attempting to simulate a black hole by *assuming* light acts as an object with mass and will be pulled in by a black hole. In reality black holes warp space and time such that light moving in a "straight" path appears to curve. It's still something I very much don't understand but for now this assumption will do.
 
 To obtain a curve or "gravitational pull" on this ray that passes by the black hole, we must first find the distance to the black hole. Since we're already using ray's it'll be easiest to use **Signed Distance Functions**. These are like building blocks of building geometry out of rays instead of the typical triangles we're used to. We traverse along the ray, calculating the distance from some SDF shape, and once we "enter" the shape (where the distance is less than zero) we stop the ray and set the color value to the color of the shape. However, we'll be using the typical SDF's a little differently. Instead, we'll be using the distance to apply the gravitational pull the ray experiences.
-## Clouds
-Blah blah blah
 ## Implementing in Godot
-Godot has a few options towards the post processing that raymarching requires. The first and most obvious is using [CanvasItem](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html) shaders. Godot splits the usage of shaders into differing types where CanvasItem shaders are shaders typically used for rendering for UI or 2D games, however we will use it as a screen that will layer atop 
+Implementation of raymarching requires (typically) making a post-processing shader that will take the current screen texture as input, and output its modification.
+### Typical Shaders in Godot
+Godot has its own shader language aptly named GDShader's. Shaders have a few different types that make it easier to work in for specific scenarios, the ones important to us are [CanvasItem](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/canvas_item_shader.html) and Spatial shaders. CanvasItem shaders are are those made for UI and 2D games, Spatial shaders are made for 3D objects. 
+
+CanvasItem shaders provide the benefit of already acting as a screen that will exist atop our screen to modify the current screen texture. 
+### Clouds 
+![](../Pasted%20image%2020250930211541.png)
 # References
 - Based on this [video](https://www.youtube.com/watch?v=dMohMW29gSM)
 - Oh and [this one](https://www.youtube.com/watch?v=ryB8hT5TMSg) too
@@ -27,6 +31,7 @@ Godot has a few options towards the post processing that raymarching requires. T
 - [Godot Shaders Documentation](https://docs.godotengine.org/en/stable/tutorials/shaders/index.html)
 # Further Reading
 - [4D Raytracing](https://www.youtube.com/watch?v=FS8NotZ3diY)
+- [GitHub Source Code](https://github.com/MW-0317/Godot-Raymarching)
 # Future Ideas
 - [Dithering](https://www.youtube.com/watch?v=8wOUe32Pt-E) to recreate how the first rendered black hole looks
 - FFT to recreate [lens effects](https://www.youtube.com/watch?v=QWqb5Gewbx8)
