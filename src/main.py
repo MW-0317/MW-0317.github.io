@@ -65,11 +65,12 @@ class ObsidianVault:
                 
                 print("Reading:", read_file)
                 doc = pandoc.read(file=str(read_file), format=self.fmt)
+                if not "title" in doc[0][0]:
+                    doc[0][0]["title"] = MetaString(file_string.split(".")[0])
 
                 # Convert .md links to .html
                 remap_links(doc)
-                if file_string == "Projects.md":
-                    handle_footers(doc)
+                handle_footers(doc)
 
                 print("Getting templates...")
                 header_template = ""
