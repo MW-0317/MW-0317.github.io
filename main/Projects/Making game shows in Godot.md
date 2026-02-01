@@ -1,6 +1,3 @@
----
-test: a
----
 I absolutely love hosting game shows and events and want a way that I can host popular game shows for my friends.
 
 I want two versions of these games, one for a game host or game master to control the order of the game and another version that's controlled by a host machine and other machines (phones) can connect via some code, think of the Jackbox Party Packs.

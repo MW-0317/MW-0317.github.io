@@ -9,6 +9,27 @@ def remap_links(doc):
         if isinstance(elm, Link) and elm[2][0].endswith("md"):
             elm[2] = (os.path.splitext(elm[2][0])[0] + ".html", '')
 
+def replace_canvas_links(doc):
+    locations = []
+    for elt, path in pandoc.iter(doc, path=True):
+        if isinstance(elt, Image) and elt[2][0].endswith("canvas"):
+            holder, index = path[-1]
+            locations.append((elt, holder, index))
+
+    for elt, holder, index in reversed(locations):
+        assert isinstance(elt, Image)
+        attr = (elt[2][0], ["obsidian-canvas"], [("", "")])
+        holder[index] = Span(attr, [LineBreak()])
+
+
+    # elms = list(pandoc.iter(doc))
+    # for i in range(len(elms)):
+    #     elm = elms[i]
+    #     if isinstance(elm, Image) and elm[2][0].endswith("canvas"):
+    #         print("Test")
+    #         attr = (elm[2][0], ["obsidian-canvas"], [("", "")])
+    #         elms[i] = Div(attr, [])
+
 def handle_footers(doc):
     locations = []
     for elt, path in pandoc.iter(doc, path=True):
@@ -38,6 +59,7 @@ class ObsidianVault:
 
     def to(self, folder: Path, extension: str):
         shutil.copytree(self.header, folder / "header", dirs_exist_ok=True)
+        shutil.copy2(self.templates / "index.html", folder / "index.html")
 
         for path, dirs, files in os.walk(self.vault_path):
             if ".obsidian" in path:
@@ -70,6 +92,7 @@ class ObsidianVault:
 
                 # Convert .md links to .html
                 remap_links(doc)
+                replace_canvas_links(doc)
                 handle_footers(doc)
 
                 print("Getting templates...")

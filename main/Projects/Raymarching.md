@@ -1,4 +1,4 @@
-![](../cloud.jpg)
+![](../Resources/images/cloud.jpg)
 Imagine the light that passes through this cloud.
 
 Light is interesting, we imagine it as both a particle and a wave and yet in computer graphics we always seem to assume light is a particle, flying towards our camera in the time it takes to render a single frame. Light, like other parts of nature, however, act in opposition to us, its *much* faster and *much* more confusing than the simplifications will describe it. Light is much more interesting than these simplifications will lead you to believe, I hope someday we can understand its' beauty, in the meantime we will estimate its' beauty with **Raymarching**. 
@@ -22,7 +22,7 @@ Godot has its own shader language aptly named GDShader's. Shaders have a few dif
 
 CanvasItem shaders provide the benefit of already acting as a screen that will exist atop our screen to modify the current screen texture. 
 ## Clouds 
-![](../Pasted%20image%2020250930211541.png)
+![](../Resources/images/Pasted%20image%2020250930211541.png)
 # References
 - Based on this [video](https://www.youtube.com/watch?v=dMohMW29gSM)
 - Oh and [this one](https://www.youtube.com/watch?v=ryB8hT5TMSg) too

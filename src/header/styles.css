@@ -45,7 +45,7 @@ body {
     background-repeat: repeat;
 }
 
-img {
+img, .obsidian-canvas {
     max-height: 20em;
     margin: 5px 15px;
     float: left;
@@ -400,4 +400,9 @@ label.note-number {
         vertical-align: baseline;
         position: relative;
     }
+}
+
+.obsidian-canvas {
+    height: 40vw;
+    display: block;
 }

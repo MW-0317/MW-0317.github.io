@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>🐒 Canvas Viewer</title>
+	<style>
+		body, html {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		div {
+			position: relative;
+			width: 80%;
+			height: 80%;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body><div id="demo.canvas" class="test"></div></body>
+<script type="module">
+import { JSONCanvasViewer, parser, fetchCanvas } from 'https://unpkg.com/json-canvas-viewer/dist/chimp.js';
+
+// function fetchCanvas(path) {
+// 	return (fetch(path).then((res) => res.json()));
+// }
+var a = document.getElementsByClassName("obsidian-canvas");
+
+for (var i = 0; i < a.length; i++)
+{
+	// Get referenced chart.
+	var current_canvas = await fetchCanvas(a[i].id);
+
+	new JSONCanvasViewer({
+		container: a[i], // The element to attach the viewer to
+		canvas: current_canvas,  // remember to prepare your canvas
+		markdownParser: parser,
+	});
+}
+</script>
+</html>
