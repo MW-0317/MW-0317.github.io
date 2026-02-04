@@ -5,3 +5,8 @@ I want two versions of these games, one for a game host or game master to contro
 Probably the most difficult game to start with, however encompasses just about everything a standard game show has: a board, player info, a wheel of some sort, requiring both buzz in and turn based play. I started here to gauge a basic understanding of what I'd need for making baseline content to easily make more gameshows. If I could put pieces together and make Wheel of Fortune I'd feel pretty confident about making other game shows.
 
 # Jeopardy
+
+# Rework
+- Users should be able to create game show boards with their own rulesets
+	- "timeline" to set how the game should move, and when player input is
+	- allow inclusion of non-board related things like wheels
