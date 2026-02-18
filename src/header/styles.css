@@ -31,6 +31,7 @@ html {
     /* color: #1a1a1a; */
     color: var(--TEXT);
     /* background-color: #fdfdfd; */
+    counter-reset: note-counter 0;
 }
 
 body {
@@ -352,7 +353,7 @@ ul.task-list li input[type="checkbox"] {
 /* Much of the following taken from: https://www.youtube.com/watch?v=YvnTsiIFXeI and https://www.gingerbill.org/article/2026/01/19/two-families-of-markup-languages/ */
 
 .note-number {
-    counter-increment: note-counter;
+    counter-increment: note-counter 1;
 }
 
 label.note-number {
@@ -383,10 +384,16 @@ label.note-number {
     clear: right;
     margin-right: -45%;
     max-width: 40%;
+    width: 40%;
     margin-top: 0;
     margin-bottom: 0.5em;
     vertical-align: baseline;
     position: relative;
+}
+
+.note > p {
+    margin: 0;
+    display: inline;
 }
 
 @media only screen and (max-width: 1600px) {

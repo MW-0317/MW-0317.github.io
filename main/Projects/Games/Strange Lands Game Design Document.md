@@ -15,7 +15,12 @@ The systems discussed in [Emergent Gameplay](#Emergent%20Gameplay) and assets in
 - Explosions
 - Weapons
 - Scalable/Custom Characters
+- Ragdolls and moveable ragdolls[^1]
+- Procedural Animation[^2]
 # Base Assets
 # Design Graph
 
 ![](../../Resources/graphs/strange_lands_design_graph.canvas)
+
+[^1]: [Paper?](https://www.diva-portal.org/smash/get/diva2:23898/FULLTEXT01.pdf) [Article?](https://www.gamedeveloper.com/programming/advanced-character-physics) [Another Paper?](https://www.diva-portal.org/smash/get/diva2:1328413/FULLTEXT01.pdf)
+[^2]: [GDC Talk](https://www.youtube.com/watch?v=LNidsMesxSE)

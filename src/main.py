@@ -30,7 +30,7 @@ def replace_canvas_links(doc):
     #         attr = (elm[2][0], ["obsidian-canvas"], [("", "")])
     #         elms[i] = Div(attr, [])
 
-def handle_footers(doc):
+def handle_footers(doc, fmt):
     locations = []
     for elt, path in pandoc.iter(doc, path=True):
         if isinstance(elt, Note):
@@ -41,9 +41,12 @@ def handle_footers(doc):
     for elt, holder, index in reversed(locations):
         assert isinstance(elt, Note)
         block = elt[0]
+        print(elt)
         attr = ("", [""], [("", "")])
         # s = Span(attr, block)
-        inline_string = pandoc.write(elt[0])
+        inline_string = pandoc.write(elt[0], format=fmt)
+        # print(inline_string)
+        # print(inline_string)
         s = RawInline("html", "<label class=\"note-number\"></label><span class=\"note\">" + inline_string + "</span>")
         holder[index] = s
 
@@ -93,7 +96,7 @@ class ObsidianVault:
                 # Convert .md links to .html
                 remap_links(doc)
                 replace_canvas_links(doc)
-                handle_footers(doc)
+                handle_footers(doc, extension)
 
                 print("Getting templates...")
                 header_template = ""
